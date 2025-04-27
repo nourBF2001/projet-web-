@@ -1,23 +1,29 @@
-import logo from './logo.svg';
-import './App.css';
-
+import React from 'react';
+import Header from './components/Header/Header';
+import Isection from './components/Isection/Isection';
+import Csection from './components/Csection/Csection';
+import Nsection from './components/Nsection/Nsection';
+import Dsection from './components/Dsection/Dsection';
+import Psection from './components/Psection/Psection';
+import PPsection from './components/PPsection/PPsection';
+import Fsection from './components/Fsection/Fsection';
+import Bsection from './components/Bsection/Bsection';
+import Msection from './components/Msection/Msection';
+import Footer from './components/Footer/Footer';
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div>
+      <Header />
+      <Isection />
+      <Csection />
+      <Nsection />
+      <Dsection />
+      <Psection />
+      <PPsection />
+      <Fsection />
+      <Bsection />
+      <Msection />
+      <Footer />
     </div>
   );
 }

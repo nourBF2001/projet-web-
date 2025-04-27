@@ -1,0 +1,50 @@
+.dsection {
+    text-align: center;
+    padding: 20px;
+  }
+  
+  .dsection h2 {
+    font-size: 24px;
+    margin-bottom: 10px;
+  }
+  
+  .dsection p {
+    font-size: 16px;
+    color: gray;
+    margin-bottom: 20px;
+  }
+  
+  .dsection .view-more {
+    display: inline-block;
+    margin-bottom: 30px;
+    color: black;
+    text-decoration: none;
+    font-weight: bold;
+  }
+  
+  .product-grid {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 20px;
+  }
+  
+  .product-card {
+    text-align: center;
+  }
+  
+  .product-card img {
+    width: 100%;
+    max-width: 200px;
+    border-radius: 10px;
+    margin-bottom: 10px;
+  }
+  
+  .product-card h3 {
+    font-size: 16px;
+    margin-bottom: 5px;
+  }
+  
+  .product-card p {
+    font-size: 14px;
+    font-weight: bold;
+  }

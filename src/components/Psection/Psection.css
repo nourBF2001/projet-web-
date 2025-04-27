@@ -1,0 +1,18 @@
+.psection {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    padding: 20px;
+  }
+  
+  .photo {
+    width: 100%;
+    max-width: 400px;
+    border-radius: 10px;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+  }
+  
+  .photo:hover {
+    transform: scale(1.05);
+    box-shadow: 0 0 10px lightgray;
+  }

@@ -1,0 +1,41 @@
+.fsection {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #f9f9f9;
+    padding: 20px 0;
+  }
+  
+  .feature {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    transition: transform 0.3s ease;
+  }
+  
+  .feature:hover {
+    transform: translateY(-10px);
+  }
+  
+  .icon {
+    font-size: 40px;
+    color: #333;
+    margin-bottom: 10px;
+    transition: transform 0.3s ease;
+  }
+  
+  .feature:hover .icon {
+    transform: translateX(10px);
+  }
+  
+  .text h3 {
+    font-size: 18px;
+    font-weight: bold;
+    margin: 5px 0;
+  }
+  
+  .text p {
+    font-size: 14px;
+    color: #666;
+  }
